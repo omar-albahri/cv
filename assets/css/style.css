@@ -1107,7 +1107,9 @@ section {
 
 .mysocialstyle{
 	color:#fff;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  
+   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   
     background-image: linear-gradient( to right, #9ddf63, #64ae23, #7fbf47, #64ae23, #9ddf63 );
     background-size: 400% 400%;
 	 border-radius: 50%;
@@ -1132,57 +1134,4 @@ section {
 }
 .myshadow{
 	box-shadow: -2px -2px 10px #ebebeb75, 2px 2px 7px #8080808f;
-}
-
-
-.snowfall{
-  background: url(10.png);
-
-  background-repeat: repeat;
- 
-  position:absolute;
- 
- 
-  animation:snowfall 5s linear forwards infinite; 
-  -webkit-animation:snowfall 5s linear forwards infinite; 
-}
-@keyframes snowfall{
-  0%{
-    background-position: 0 0;
-  }
-  20%{
-    background-position: 20px 20px;
-  }
-  40%{
-    background-position: 40px 40px;
-  }
-  60%{
-    background-position: 60px 60px;
-  }
-  80%{
-    background-position: 80px 80px;
-  }
-  100%{
-    background-position: 100px 100px;
-  }
-}
-@-webkit-keyframes snowfall{
-  0%{
-    background-position: 0 0;
-  }
-  20%{
-    background-position: 20px 20px;
-  }
-  40%{
-    background-position: 40px 40px;
-  }
-  60%{
-    background-position: 60px 60px;
-  }
-  80%{
-    background-position: 80px 80px;
-  }
-  100%{
-    background-position: 100px 100px;
-  }
 }
