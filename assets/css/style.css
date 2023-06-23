@@ -1121,7 +1121,7 @@ section {
     transform: scale(1);
 }
 .backgroundgradient{
-	 background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	 background: linear-gradient(-45deg, #ffffff, #bcf3a6, #fff7b0, #f1f1f1);
   
     background-size: 400% 400%;
 	
