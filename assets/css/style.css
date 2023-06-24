@@ -1129,6 +1129,14 @@ section {
     transition: all 0.4s ease-in-out;
     transform: scale(1);
 }
+.progressgradient{
+	 background: linear-gradient( to right, #9ddf63, #64ae23, #7fbf47, #64ae23, #9ddf63 ); 
+    background-size: 400% 400%;
+	
+    animation: gradient 10s ease infinite;
+    transition: all 0.4s ease-in-out;
+    transform: scale(1);	
+}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
