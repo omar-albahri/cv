@@ -835,7 +835,9 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
+  /*
   padding-bottom: 130px;
+  */
 }
 
 .contact .info {
@@ -1164,10 +1166,16 @@ section {
   height: 100%;
   width: 100%;
   position:relative;
-/* 
- border:1px solid red;
-*/
-
+  animation:snowfall 5s linear forwards infinite; 
+ 
+}
+.abfall{
+  background: url("../img/AB.png");
+  background-size: 450px 250px;
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+  position:relative;
   animation:snowfall 5s linear forwards infinite; 
  
 }
@@ -1225,3 +1233,26 @@ section {
 	 border-radius: 10% 1%;
 }
 
+.opacity{
+	opacity:75%;
+}
+.textshadow1{
+	text-shadow: 2px 2px 4px #000000;	
+}
+.textshadow2{
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.textshadow3{
+	text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
+}
+h2{
+	color:#fff !important;
+	text-shadow: 2px 2px 2px black, 0 0 25px green, 0 0 5px darkgreen;
+}
+h3{
+	
+	text-shadow: 1px 1px 2px white, 0 0 15px #111, 0 0 2px gray;
+}
+.divshadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0.2, 0, 0.2), 0 6px 20px 0 rgba(0, 0.2, 0, 0.19);
+}
